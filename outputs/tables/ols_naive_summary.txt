@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           cpi_log_diff   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                 -0.007
+Method:                 Least Squares   F-statistic:                    0.8413
+Date:                Wed, 01 Apr 2026   Prob (F-statistic):              0.476
+Time:                        14:08:39   Log-Likelihood:                 250.83
+No. Observations:                  71   AIC:                            -493.7
+Df Residuals:                      67   BIC:                            -484.6
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0037      0.001      3.646      0.000       0.002       0.006
+oil_log_diff    -0.0007      0.005     -0.136      0.891      -0.010       0.009
+D_lib            0.0017      0.002      0.974      0.330      -0.002       0.005
+oil_x_Dlib       0.0094      0.008      1.150      0.250      -0.007       0.025
+==============================================================================
+Omnibus:                       19.024   Durbin-Watson:                   1.520
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.649
+Skew:                           1.035   Prob(JB):                     6.01e-07
+Kurtosis:                       5.323   Cond. No.                         14.6
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
