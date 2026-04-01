@@ -76,8 +76,6 @@ wb_morocco_oilpass/
 │       ├── lp_robustness_all_breaks.csv
 │       ├── ols_naive_results.csv
 │       └── ols_naive_summary.txt
-├── paper/
-│   └── main.pdf
 ├── src/
 │   ├── etl/
 │   │   ├── __init__.py
